@@ -1,25 +1,32 @@
-import logo from './logo.svg';
-import './App.css';
+import React, {useEffect, useState} from 'react';
+import axios from 'axios';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
-}
+const App = () => {
+    const [jokes, setJokes] = useState([]);
+    const [load, setLoad] = useState(false);
+    const [error, setError] = useState('');
 
+    useEffect(() => {
+        axios.get('http://api.icndb.com/jokes/')
+            .then(res => {
+                setJokes(res.data);
+                setLoad(true);
+            })
+            .catch(err => {
+                setError(err.message);
+                setLoad(true)
+            })
+    }, []);
+
+    if (load) {
+        return (
+            <ul>{error ? <li>{error.message}</li> : jokes.value.map((fact) => <li class="joke" id={fact.id}>{fact.joke}</li>)}</ul>
+        );
+    }
+    else {
+        return (
+              <div>Loading...</div>
+        );
+    }
+};
 export default App;
