@@ -22,9 +22,22 @@
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+}
+
+.App-header .App-nav .header-middle {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  position: absolute;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 12%;
+}
+
+.App-header .App-nav .header-middle .woodstock-header {
+  text-decoration: line-through;
 }
 
 .App-header .App-nav .burger-menu {
@@ -39,15 +52,16 @@
   background-color: white;
 }
 
-.App-header .App-nav img {
-  height: 18px;
-}
-
 .App-header .App-nav .nav-link {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  gap: 60px;
+  gap: 70px;
+  margin-top: 5px;
+}
+
+.App-header .App-nav .nav-link img {
+  height: 18px;
 }
 
 .App-header .App-nav .nav-link a {
