@@ -12,6 +12,7 @@ const Header = () => {
         <img src={header1} className='header1'></img>
         <nav className="App-nav">
           <div className='header-middle'>
+            <span className='wood-line'></span>
             <img src={woodstock} alt="wood header" className='woodstock-header' />
           </div>
           <a href="#">
