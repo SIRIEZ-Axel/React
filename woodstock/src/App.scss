@@ -1,0 +1,51 @@
+.App-header {
+
+    .header-back {
+        background: rgba(0, 0, 0, 1);
+        display: flex;
+
+        .header1,
+        .header2 {
+            opacity: 0.5;
+            width: 100%;
+            height:100%;
+        }
+    }
+
+    .App-nav {
+        z-index: 100;
+        position: absolute;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        .burger-menu {
+            margin: 15px 10px;
+
+            .bar {
+                display: block;
+                width: 25px;
+                height: 3px;
+                margin: 5px auto;
+                background-color: white;
+            }
+        }
+
+        img {
+            height: 18px;
+        }
+
+        .nav-link {
+            display: flex;
+            gap: 60px;
+
+            a {
+                font-size: 18px;
+                text-decoration: none;
+                color: white;
+                margin-right: 50px;
+            }
+        }
+    }
+}

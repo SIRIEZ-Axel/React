@@ -1,0 +1,42 @@
+.App-header {
+
+    .header-back {
+        height: 659px;
+        display: flex;
+        background: rgba($color: #000000, $alpha: 0.8);
+
+    }
+
+    .App-nav {
+        position: absolute;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        margin-top: 10px;
+
+        .burger-menu {
+            margin: 15px 10px;
+            .bar {
+                display: block;
+                width: 25px;
+                height: 3px;
+                margin: 5px auto;
+                background-color: white;
+            }
+        }
+
+        img {
+            height: 15px;
+        }
+
+        .nav-link {
+            display: flex;
+            gap: 60px;
+
+            a {
+                text-decoration: none;
+                color: white;
+            }
+        }
+    }
+}
