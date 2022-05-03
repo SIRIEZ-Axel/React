@@ -120,6 +120,7 @@ $brown : #BC9A44;
             align-items: center;
             margin-top: 75px;
             margin-left: -35px;
+
             .learn-btn {
                 letter-spacing: 3px;
                 border: solid 2px $brown;
@@ -224,7 +225,6 @@ $brown : #BC9A44;
         justify-content: center;
 
         img {
-            width: 516px;
             box-shadow: 26px -26px 0px 0px rgba(188, 154, 68, 0.4);
         }
     }
@@ -236,5 +236,99 @@ $brown : #BC9A44;
 /******************************************************************************************************/
 .creative-section {
     height: 811px;
+    margin-bottom: 190px;
     background-color: #1D1818;
+    display: flex;
+
+    .div-people {
+        width: 45%;
+        display: flex;
+        justify-content: center;
+
+        .img-back {
+            background: #BC9A44;
+            height: 811px;
+
+            img {
+                opacity: 0.4;
+            }
+        }
+    }
+
+    .creative-text {
+        width: 55%;
+
+        .wood-container {
+            display: flex;
+            justify-content: flex-end;
+            margin-top: 25px;
+            margin-right: 25px;
+        }
+
+        h2 {
+            position: absolute;
+            margin-left: -260px;
+            margin-top: 75px;
+            background-color: white;
+            width: fit-content;
+            padding: 15px 70px;
+            font-size: 42px;
+            font-weight: 700;
+            line-height: 67px;
+            letter-spacing: 0.1em;
+        }
+
+
+        h3 {
+            position: absolute;
+            font-size: 42px;
+            font-weight: 700;
+            line-height: 67px;
+            letter-spacing: 0.1em;
+            margin-top: 190px;
+            margin-left: -30px;
+        }
+
+        p {
+            width: 530px;
+            font-size: 16px;
+            font-weight: 400;
+            line-height: 26px;
+            letter-spacing: 0.1em;
+            margin-top: 300px;
+            margin-bottom: 130px;
+        }
+
+        h3,
+        p {
+            color: white;
+        }
+
+        .btn-container {
+            display: flex;
+            align-items: center;
+            button {
+                border: 2px solid #BC9A44;
+                background-color: #1D1818;
+                width: 204px;
+                height: 54px;
+                box-sizing: border-box;
+
+                font-size: 16px;
+                font-weight: 500;
+                line-height: 26px;
+                letter-spacing: 0.1em;
+                text-align: center;
+                color: white;
+            }
+
+            .line-btn {
+                position: absolute;
+                width: 151px;
+                height: 0px;
+                margin-left: 190px;
+                border: 1px solid #FFFFFF;
+            }
+        }
+    }
 }

@@ -1,9 +1,11 @@
+import React from 'react';
 import chair from './chair.svg'
 import wood from './wood-restaurant.svg'
 
-const Section1 = () => {
-    return (
-        <div className="about">
+class Section1 extends React.Component {
+    render(){
+        return (
+            <div className="about">
             <div className="chair-div">
                 <img src={chair} alt="chair-img" ></img>
             </div>
@@ -42,6 +44,7 @@ const Section1 = () => {
             </div>
         </div>
     );
+}
 }
 
 export default Section1;
