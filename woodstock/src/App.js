@@ -5,7 +5,10 @@ import './App.css';
 
 function App() {
   return (
-    <Header />
+    <div>
+      <Header />
+      <Section1 />
+    </div>
   );
 }
 

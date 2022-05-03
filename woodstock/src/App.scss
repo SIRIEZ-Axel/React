@@ -4,6 +4,7 @@ $brown : #BC9A44;
 /** HEADER*****************************************************************/
 /* ************************************************************************/
 .App-header {
+    margin-bottom: 190px;
 
     .header-back {
         background: rgba(0, 0, 0, 1);
@@ -78,3 +79,57 @@ $brown : #BC9A44;
 /************************************************************************************/
 /* SECTION ABOUT US
 /************************************************************************************/
+.about {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    margin-bottom: 190px;
+
+    .about-text {
+        width: 550px;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        line-height: 25px;
+
+        p {
+            color: #827E7E;
+        }
+
+        .about-title {
+            display: flex;
+            gap: 13px;
+            .rect-about {
+                background-color: #E4D7B4;
+                height: 44px;
+                width: 9px;
+                left: 783px;
+                top: 842px;
+                border-radius: 0px;
+
+            }
+        }
+
+        .learn-btn {
+            position: absolute;
+            letter-spacing: 3px;
+            border: solid 2px $brown;
+            background-color: white;
+            padding: 10px 25px;
+            width: 200px;
+            height: 54px;
+            margin-left: -35px;
+            margin-top: 300px;
+        }
+    }
+
+    .chair-div {
+        display: flex;
+        justify-content: center;
+        width: 50%;
+
+        .chair-img {
+            box-shadow: -84px -41px 0px 0px rgba(188, 154, 68, 0.4);
+        }
+    }
+}
