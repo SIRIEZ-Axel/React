@@ -15,21 +15,30 @@ const Section1 = () => {
                 <p>
                     Look, just because I don't be givin' no man a foot massage don't make it right for Marsellus to throw Antwone into a glass motherfuckin' house, fuckin' up the way the nigger talks. Motherfucker do that shit to me, he better paralyze my ass, 'cause I'll kill the motherfucker, know what I'm sayin'?
                 </p>
-                <button className="learn-btn">LEARN MORE</button>
+                <div className="div-btn">
+                    <button className="learn-btn">LEARN MORE</button>
+                    <span className='line-learn'></span>
+                </div>
             </div>
+
             <div class="shop-div">
                 <div className="shop-text">
                     <div className="shop-title">
-                        <span className='rect-h3'></span>
+                        <span className='rect-shop'></span>
                         <h3>SHOP</h3>
                     </div>
                     <p>
                         Look, just because I don't be givin' no man a foot massage don't make it right for Marsellus to throw Antwone into a glass motherfuckin' house, fuckin' up the way the nigger talks. Motherfucker do that shit to me, he better paralyze my ass, 'cause I'll kill the motherfucker, know what I'm sayin'?
                     </p>
+                    <div className='div-btn'>
+                        <button className="shop-btn">Go Shopping</button>
+                        <span className='line-shop'></span>
+                    </div>
+
                 </div>
-            </div>
-            <div className="resto-div">
-                <img src={wood} alt="people working" />
+                <div className="resto-div">
+                    <img src={wood} alt="people working" />
+                </div>
             </div>
         </div>
     );
