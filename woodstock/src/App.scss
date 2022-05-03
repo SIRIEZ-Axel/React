@@ -236,7 +236,7 @@ $brown : #BC9A44;
 /******************************************************************************************************/
 .creative-section {
     height: 811px;
-    margin-bottom: 190px;
+    margin-bottom: 170px;
     background-color: #1D1818;
     display: flex;
 
@@ -307,6 +307,7 @@ $brown : #BC9A44;
         .btn-container {
             display: flex;
             align-items: center;
+
             button {
                 border: 2px solid #BC9A44;
                 background-color: #1D1818;
@@ -329,6 +330,74 @@ $brown : #BC9A44;
                 margin-left: 190px;
                 border: 1px solid #FFFFFF;
             }
+        }
+    }
+}
+
+/******************************************************************************************************/
+/* SECTION CONTACT */
+/******************************************************************************************************/
+.contact-section {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+    .contact-title{
+        margin-top: -100px;
+        left: 370px;
+        position: absolute;
+        p{
+            font-size: 24px;
+        }
+    }
+
+    .form {
+        display: flex;
+        flex-direction: column;
+        gap: 35px;
+        margin-bottom: 200px;
+        width: auto;
+
+        input {
+            border: 1px solid #BCB5B5;
+            box-sizing: border-box;
+            border-radius: 34px;
+            width: 300px;
+            font-weight: 500;
+            font-size: 18px;
+            line-height: 21px;
+            letter-spacing: 0.1em;
+            padding: 5px 15px;
+            color: #D3C08E;
+        }
+
+        .ipt-name-container {
+            display: flex;
+            gap: 29px ;
+        }
+
+        .ipt-mail {
+            width: 392px;
+        }
+
+        .ipt-msg {
+            height: 275px;
+            width: 630px;
+            display: flex;
+            flex-direction: row;
+        }
+    }
+
+    .wood-footer {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        height: 150px;
+        background-color: #000000;
+
+        img {
+            height: 62px;
         }
     }
 }
