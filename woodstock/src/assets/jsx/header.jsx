@@ -1,7 +1,7 @@
-import logo from './wood-logo.svg';
-import header1 from './wood-left.svg';
-import header2 from './wood-right.svg';
-import woodstock from './WOOD-STOCK.svg';
+import logo from '../img/wood-logo.svg';
+import header1 from '../img/wood-left.svg';
+import header2 from '../img/wood-right.svg';
+import woodstock from '../img/WOOD-STOCK.svg';
 
 const Header = () => {
   return (

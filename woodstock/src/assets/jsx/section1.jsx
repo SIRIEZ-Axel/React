@@ -1,6 +1,6 @@
 import React from 'react';
-import chair from './chair.svg'
-import wood from './wood-restaurant.svg'
+import chair from '../img/chair.svg';
+import wood from '../img/wood-restaurant.svg';
 
 class Section1 extends React.Component {
     render(){

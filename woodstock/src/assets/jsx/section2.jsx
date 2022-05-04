@@ -1,6 +1,6 @@
 import React from "react";
-import people from './people-working.svg';
-import wood from './wood-logo.svg';
+import people from '../img/people-working.svg';
+import wood from '../img/wood-logo.svg';
 
 class Section2 extends React.Component {
     render() {

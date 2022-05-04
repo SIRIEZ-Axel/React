@@ -1,5 +1,5 @@
 import React from "react";
-import wood from "./wood-logo.svg";
+import wood from "../img/wood-logo.svg";
 
 class Section3 extends React.Component {
     render() {
