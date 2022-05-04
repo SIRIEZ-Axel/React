@@ -7,14 +7,14 @@ $brown : #BC9A44;
     margin-bottom: 190px;
 
     .header-back {
-        background: rgba(0, 0, 0, 1);
+        background-color: black;
         display: flex;
         width: 100%; 
 
         .header2,
         .header1 {
             opacity: 0.3;
-            width: 100%;
+            width: 50%;
         }
     }
 
@@ -36,7 +36,7 @@ $brown : #BC9A44;
                 position: absolute;
                 width: 115px;
                 height: 8px;
-                left: 652px;
+                margin-left: -96px;
                 top: 15px;
                 background: $brown;
                 border-radius: 4px;
@@ -58,7 +58,7 @@ $brown : #BC9A44;
 
         .nav-link {
             display: flex;
-            gap: 70px;
+            gap: 100px;
             margin-top: 5px;
 
             img {
@@ -135,7 +135,7 @@ $brown : #BC9A44;
                 border: 1px solid #000000;
                 height: 0px;
                 width: 151px;
-                left: 910px;
+                margin-left: 182px;
             }
         }
     }
@@ -211,7 +211,7 @@ $brown : #BC9A44;
                     width: 151px;
                     height: 0px;
                     position: absolute;
-                    left: 300px;
+                    margin-left: 182px;
                     border: 1px solid #000000;
                 }
             }

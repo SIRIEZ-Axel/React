@@ -1,0 +1,1 @@
+{"version":3,"sources":["assets\\style\\style.scss"],"names":[],"mappings":"AAAA,EAAE,CAAC;EACC,KAAK,EAAE,OAAO;EACd,WAAW,EAAE,OAAO;CACvB","file":"style.91ba9fdb.css","sourceRoot":"..\\src","sourcesContent":["h1 {\r\n    color: hotpink;\r\n    font-family: cursive;\r\n}"]}
