@@ -1,8 +1,13 @@
-import { useState } from 'react'
+import { useEffect, useState } from 'react'
 import '../style/Footer.css'
 
 function Footer() {
 	const [inputValue, setInputValue] = useState('')
+
+	useEffect(() => {
+		return () =>
+			console.log(`cette alerte s'affiche quand footer est retiré du dom`)
+	})
 
 	function handleInput(e) {
 		setInputValue(e.target.value)

@@ -8,6 +8,7 @@ import { useState } from 'react'
 
 function App() {
 	const [cart, updateCart] = useState([])
+	const [isFooterShown, updateIsFooterShown] = useState(true)
 
 	return (
 		<div>
@@ -19,7 +20,9 @@ function App() {
 				<Cart cart={cart} updateCart={updateCart} />
 				<ShoppingList cart={cart} updateCart={updateCart} />
 			</div>
-			<Footer />
+			<button onClick={() => updateIsFooterShown(!isFooterShown)}>Cacher
+			</button>
+			{isFooterShown && <Footer cart={cart} />}
 		</div>
 	)
 }
