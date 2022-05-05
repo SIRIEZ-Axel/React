@@ -1,23 +1,11 @@
-.shoppinglist{
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-
-    margin-top: 100px;
-    list-style: none;
-
+.lmj-shopping-list {
+	width: 100%;
 }
 
-.listitems{
-    display: flex;
-    flex-direction: column;
-    gap: 40px;
-
-    background-color: #31b572;
-    padding: 50px;
-    padding-bottom: 200px;
-    border-radius: 10px;
-    border-top: 2px solid black;
-    font-size: 18px;
+.lmj-plant-list {
+	list-style-type: none;
+	padding: 32px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
 }
-
