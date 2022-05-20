@@ -11,6 +11,12 @@ Here is my introduction to the ***Javascript*** Framework with ***React***.
 </p>
 
 <h2>Projects</h2>
-- ***La maison de la jungle***
-- ***woodstock***
-- ***Pomodoro***
+<p>
+-  La maison de la jungle
+</p>
+<p>
+-  woodstock
+</p>
+<p>
+-  Pomodoro
+</p>
